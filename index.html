@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>أذكاري</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Tajawal:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- SCREEN 1: HOME -->
+  <div id="screen-home" class="screen active">
+    <div class="home-header">
+      <div class="bismillah">بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ</div>
+      <h1 class="app-title">أذكاري</h1>
+      
+      <p class="app-subtitle">حصن المسلم اليومي</p>
+    </div>
+
+    <div class="categories-grid">
+      <div class="category-card" onclick="openCategory('morning')">
+        <div class="card-icon">🌅</div>
+        <div class="card-title">أذكار الصباح</div>
+        <div class="card-count" id="count-morning"></div>
+      </div>
+      <div class="category-card" onclick="openCategory('evening')">
+        <div class="card-icon">🌙</div>
+        <div class="card-title">أذكار المساء</div>
+        <div class="card-count" id="count-evening"></div>
+      </div>
+      <div class="category-card" onclick="openCategory('after-salah')">
+        <div class="card-icon">🕌</div>
+        <div class="card-title">أذكار بعد الصلاة</div>
+        <div class="card-count" id="count-after-salah"></div>
+      </div>
+      <div class="category-card" onclick="openCategory('sleep')">
+        <div class="card-icon">😴</div>
+        <div class="card-title">أذكار النوم</div>
+        <div class="card-count" id="count-sleep"></div>
+      </div>
+      <div class="category-card" onclick="openCategory('wakeup')">
+        <div class="card-icon">☀️</div>
+        <div class="card-title">الذكر و الاجر</div>
+        <div class="card-count" id="count-wakeup"></div>
+      </div>
+      <div class="category-card" onclick="openCategory('quran')">
+        <div class="card-icon">📖</div>
+        <div class="card-title">أدعية قرآنية</div>
+        <div class="card-count" id="count-quran"></div>
+      </div>
+    </div>
+    
+    <div class="home-footer">
+      <p>اللهم اجعلنا من الذاكرين</p>
+    </div>
+  </div>
+
+
+    
+  <!-- SCREEN 2: DHIKR LIST -->
+  <div id="screen-list" class="screen">
+    <div class="nav-bar">
+      <button class="back-btn" onclick="goHome()">&#8594; Back</button>
+      <h2 class="nav-title" id="category-title"></h2>
+      <div class="nav-spacer"></div>
+    </div>
+    <div class="progress-container">
+      <div class="progress-bar" id="progress-bar"></div>
+    </div>
+    <div class="progress-text" id="progress-text">0 / 0</div>
+    <div class="dhikr-list" id="dhikr-list"></div>
+  </div>
+
+  <!-- SCREEN 3: COMPLETION -->
+  <div id="screen-complete" class="screen">
+    <div class="complete-content">
+      <div class="complete-icon">✨</div>
+      <h2 class="complete-title">أحسنت!</h2>
+      <p class="complete-msg">You have completed all the adhkar</p>
+      <p class="complete-hadith">"مَنْ سَبَّحَ اللَّهَ فِي دُبُرِ كُلِّ صَلاةٍ ثَلاثًا وَثَلاثِينَ"</p>
+      <button class="complete-btn" onclick="goHome()">Return to Home</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
