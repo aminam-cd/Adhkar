@@ -63,7 +63,7 @@ const adhkarData = {
         arabic: "لَا إِلَهَ إِلَّا اللَّهُ وَحْدَهُ لَا شَرِيكَ لَهُ، لَهُ الْمُلْكُ وَلَهُ الْحَمْدُ وَهُوَ عَلَى كُلِّ شَيْءٍ قَدِيرٌ",
         meaning: "None has the right to be worshipped except Allah alone",
         source: "رواه البخاري ومسلم",
-        repeat: 10,
+        repeat: 100,
         virtue: "عِدل عتق ١٠ رقاب"
       },
       {
@@ -290,70 +290,70 @@ const adhkarData = {
         arabic: "لا إله إلا الله وحده لا شريك له له الملك وله الحمد وهو على كل شيء قدير",
         meaning: "There is no god but Allah alone, no partner, His is the dominion and praise",
         source: "رواه البخاري",
-        repeat: 100,
+        repeat: 10,
         virtue: "شكر نعمة الحياة"
       },
       {
         arabic: "سبحان الله وبحمده",
         meaning: "Glory be to Allah and praise Him",
         source: "رواه مسلم",
-        repeat: 100,
+        repeat: 10,
         virtue: "تكفير الذنوب"
       },
       {
         arabic: "الحمد لله",
         meaning: "All praise is due to Allah",
         source: "رواه البخاري",
-        repeat: 100,
+        repeat: 10,
         virtue: "شكر النعم"
       },
       {
         arabic: "أستغفر الله",
         meaning: "I seek forgiveness from Allah",
         source: "رواه مسلم",
-        repeat: 100,
+        repeat: 10,
         virtue: "محو الذنوب"
       },
       {
         arabic: "لا حول ولا قوة إلا بالله",
         meaning: "There is no power nor strength except with Allah",
         source: "رواه الترمذي",
-        repeat: 100,
+        repeat: 10,
         virtue: "حماية من الشدائد"
       },
       {
         arabic: "اللهم صل على محمد",
         meaning: "O Allah, bless Muhammad",
         source: "رواه البخاري",
-        repeat: 100,
+        repeat: 10,
         virtue: "زيادة البركة"
       },
       {
         arabic: "اللهم إني أسألك العفو والعافية",
         meaning: "O Allah, I ask You for forgiveness and well-being",
         source: "رواه الترمذي",
-        repeat: 100,
+        repeat: 10,
         virtue: "حفظ النفس والصحة"
       },
       {
         arabic: "سبحان الله العظيم",
         meaning: "Glory be to Allah, the Greatest",
         source: "رواه مسلم",
-        repeat: 100,
+        repeat: 10,
         virtue: "رفع الدرجات"
       },
       {
         arabic: "اللهم إني أعوذ بك من الكفر والفقر",
         meaning: "O Allah, I seek refuge in You from disbelief and poverty",
         source: "رواه مسلم",
-        repeat: 100,
+        repeat: 10,
         virtue: "حماية الدين والدنيا"
       },
       {
         arabic: "رضيت بالله رباً وبالإسلام ديناً وبمحمد صلى الله عليه وسلم نبياً",
         meaning: "I am pleased with Allah as Lord, Islam as religion, Muhammad ﷺ as Prophet",
         source: "رواه مسلم",
-        repeat: 100,
+        repeat: 10,
         virtue: "راحة القلب والطمأنينة"
       }
     ]
