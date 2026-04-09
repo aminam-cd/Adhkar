@@ -63,7 +63,7 @@ const adhkarData = {
         arabic: "لَا إِلَهَ إِلَّا اللَّهُ وَحْدَهُ لَا شَرِيكَ لَهُ، لَهُ الْمُلْكُ وَلَهُ الْحَمْدُ وَهُوَ عَلَى كُلِّ شَيْءٍ قَدِيرٌ",
         meaning: "None has the right to be worshipped except Allah alone",
         source: "رواه البخاري ومسلم",
-        repeat: 10,
+        repeat: 100,
         virtue: "عِدل عتق ١٠ رقاب"
       },
       {
