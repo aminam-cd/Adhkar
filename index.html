@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="ar" dir="rtl">
-
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,7 +9,6 @@
   <link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Tajawal:wght@300;400;500;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
 
   <!-- SCREEN 1: HOME -->
@@ -18,10 +16,8 @@
     <div class="home-header">
       <div class="bismillah">بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ</div>
       <h1 class="app-title">أذكاري</h1>
-      
       <p class="app-subtitle">حصن المسلم اليومي</p>
     </div>
-
     <div class="categories-grid">
       <div class="category-card" onclick="openCategory('morning')">
         <div class="card-icon">🌅</div>
@@ -32,7 +28,7 @@
         <div class="card-icon">🌙</div>
         <div class="card-title">أذكار المساء</div>
         <div class="card-count" id="count-evening"></div>
-      </div>
+     </div>
       <div class="category-card" onclick="openCategory('after-salah')">
         <div class="card-icon">🕌</div>
         <div class="card-title">أذكار بعد الصلاة</div>
@@ -45,7 +41,7 @@
       </div>
       <div class="category-card" onclick="openCategory('wakeup')">
         <div class="card-icon">☀️</div>
-        <div class="card-title">الذكر و الاجر</div>
+        <div class="card-title">ذكر وأجر</div>
         <div class="card-count" id="count-wakeup"></div>
       </div>
       <div class="category-card" onclick="openQuran()">
@@ -54,14 +50,11 @@
         <div class="card-count">114 سورة</div>
       </div>
     </div>
-    
     <div class="home-footer">
       <p>اللهم اجعلنا من الذاكرين</p>
     </div>
   </div>
 
-
-    
   <!-- SCREEN 2: DHIKR LIST -->
   <div id="screen-list" class="screen">
     <div class="nav-bar">
@@ -82,8 +75,25 @@
       <div class="complete-icon">✨</div>
       <h2 class="complete-title">أحسنت!</h2>
       <p class="complete-msg">You have completed all the adhkar</p>
-      <p class="complete-hadith">"مَنْ سَبَّحَ اللَّهَ فِي دُبُرِ كُلِّ صَلاةٍ ثَلاثًا وَثَلاثِينَ"</p>
       <button class="complete-btn" onclick="goHome()">Return to Home</button>
+    </div>
+  </div>
+
+  <!-- SCREEN 4: QURAN -->
+  <div id="screen-quran" class="screen">
+    <div class="nav-bar">
+      <button class="back-btn" onclick="showScreen('screen-home')">&#8594; Back</button>
+      <h2 class="nav-title">القرآن الكريم</h2>
+      <div class="nav-spacer"></div>
+    </div>
+    <div id="quran-surah-list" class="dhikr-list"></div>
+    <div id="quran-ayah-view" style="display:none;">
+      <div class="nav-bar" style="position:sticky; top:0; z-index:100;">
+        <button class="back-btn" onclick="backToSurahList()">&#8594; Back</button>
+        <h2 class="nav-title" id="surah-title-bar">السورة</h2>
+        <div class="nav-spacer"></div>
+      </div>
+      <div id="quran-ayahs" class="dhikr-list"></div>
     </div>
   </div>
 
