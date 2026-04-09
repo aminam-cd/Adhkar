@@ -72,6 +72,7 @@ const adhkarData = {
         source: "رواه الطبراني",
         repeat: 10,
         virtue: "١٠ صلوات من الله"
+      },
     ]
   },
 
