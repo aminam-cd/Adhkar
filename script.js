@@ -18,8 +18,15 @@ const adhkarData = {
         virtue: "ذكر الله في الصباح"
       },
       {
+       arabic: "حَسْبِـيَ اللّهُ لا إلهَ إلاّ هُوَ عَلَـيهِ تَوَكَّـلتُ وَهُوَ رَبُّ العَرْشِ العَظـيم",
+       meaning: "Allah is sufficient for me; there is no god except Him. In Him I place my trust, and He is the Lord of the Mighty Throne",
+       source: "رواه أبو داود",
+       repeat: 7,
+       virtue: "دعاء للتوكل على الله وكفاية الهم"
+      },
+      {
         arabic: "اللَّهُمَّ بِكَ أَصْبَحْنَا، وَبِكَ أَمْسَيْنَا، وَبِكَ نَحْيَا، وَبِكَ نَمُوتُ، وَإِلَيْكَ النُّشُورُ",
-        meaning: "O Allah, by You we enter the morning, by You we live and die",
+        meaning: "O Allah, by you we enter the morning, by you we live and die",
         source: "رواه الترمذي",
         repeat: 1,
         virtue: "تفويض الأمر لله"
@@ -40,14 +47,14 @@ const adhkarData = {
       },
       {
         arabic: "بِسْمِ اللَّهِ الَّذِي لَا يَضُرُّ مَعَ اسْمِهِ شَيْءٌ فِي الْأَرْضِ وَلَا فِي السَّمَاءِ وَهُوَ السَّمِيعُ الْعَلِيمُ",
-        meaning: "In the name of Allah with Whose name nothing can harm",
+        meaning: "In the name of Allah with whose name nothing can harm",
         source: "رواه أبو داود والترمذي",
         repeat: 3,
         virtue: "حفظ من كل شيء"
       },
       {
         arabic: "رَضِيتُ بِاللَّهِ رَبًّا، وَبِالإِسْلَامِ دِيناً، وَبِمُحَمَّدٍ صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ نَبِيًّا",
-        meaning: "I am pleased with Allah as Lord, Islam as religion, Muhammad ﷺ as Prophet",
+        meaning: "I am pleased with Allah as Lord, Islam as religion, and Muhammad ﷺ as Prophet",
         source: "رواه أبو داود والترمذي",
         repeat: 3,
         virtue: "رضا الله على من قالها"
@@ -59,12 +66,41 @@ const adhkarData = {
         repeat: 100,
         virtue: "تُمحى ١٠٠ خطيئة"
       },
+        {
+      arabic: "اللَّهُمَّ إِنِّي أَسْأَلُكَ عِلْمًا نَافِعًا، وَرِزْقًا طَيِّبًا، وَعَمَلًا مُتَقَبَّلًا",
+      meaning: "O Allah, I ask You for beneficial knowledge, good provision, and accepted deeds",
+      source: "رواه ابن ماجه",
+      repeat: 1,
+      virtue: "دعاء شامل للعلم والرزق والعمل"
+      },
+
       {
         arabic: "لَا إِلَهَ إِلَّا اللَّهُ وَحْدَهُ لَا شَرِيكَ لَهُ، لَهُ الْمُلْكُ وَلَهُ الْحَمْدُ وَهُوَ عَلَى كُلِّ شَيْءٍ قَدِيرٌ",
         meaning: "None has the right to be worshipped except Allah alone",
         source: "رواه البخاري ومسلم",
         repeat: 100,
         virtue: "عِدل عتق ١٠ رقاب"
+      },
+      {
+        arabic: "أسْتَغْفِرُ اللهَ وَأتُوبُ إلَيْهِ",
+        meaning: "I seek forgiveness from Allah and repent to Him",
+        source: "رواه مسلم",
+        repeat: 100,
+        virtue: "سبب لمغفرة الذنوب وتجديد التوبة"
+      },
+      {
+        arabic: "يَا رَبِّ، لَكَ الْحَمْدُ كَمَا يَنْبَغِي لِجَلَالِ وَجْهِكَ، وَلِعَظِيمِ سُلْطَانِكَ",
+        meaning: "O Allah, all praise is for You in a manner worthy of the majesty of Your Face and the greatness of Your authority",
+        source: "رواه مسلم",
+        repeat: 3,
+        virtue: "ذكر عظيم في الثناء على الله"
+      },
+      {
+        arabic: "اللَّهُمَّ إِنَّا نَعُوذُ بِكَ مِنْ أَنْ نُشْرِكَ بِكَ شَيْئًا نَعْلَمُهُ، وَنَسْتَغْفِرُكَ لِمَا لَا نَعْلَمُهُ",
+        meaning: "O Allah, we seek refuge in You from associating anything with You knowingly, and we ask Your forgiveness for what we do not know",
+        source: "رواه أحمد",
+        repeat: 3,
+        virtue: "دعاء للحماية من الشرك الظاهر والخفي"
       },
       {
         arabic: "اللَّهُمَّ صَلِّ وَسَلِّمْ عَلَى نَبِيِّنَا مُحَمَّدٍ",
@@ -94,6 +130,41 @@ const adhkarData = {
         virtue: "ذكر الله في المساء"
       },
       {
+       arabic: "يَا حَيُّ يَا قَيُّومُ بِرَحْمَتِكَ أَسْتَغِيثُ، أَصْلِحْ لِي شَأْنِي كُلَّهُ وَلَا تَكِلْنِي إِلَى نَفْسِي طَرْفَةَ عَيْنٍ",
+       meaning: "O Ever-Living, O Sustainer, by Your mercy I seek help. Rectify all of my affairs and do not leave me to myself even for the blink of an eye",
+       source: "رواه الحاكم",
+       repeat: 3,
+       virtue: "دعاء عظيم للإصلاح والتوكل وحفظ الإنسان من الاعتماد على نفسه"
+      },
+      {
+        arabic: "أَمْسَيْنا وَأَمْسَى المُلْكُ للهِ وَالحَمْدُ للهِ، لا إلهَ إلاّ اللهُ وَحدَهُ لا شَريكَ لهُ، لهُ المُلكُ ولهُ الحَمْدُ، وَهُوَ عَلَى كُلِّ شَيْءٍ قَدِيرٌ. رَبِّ أَسْأَلُكَ خَيْرَ مَا فِي هَذِهِ اللَّيْلَةِ وَخَيْرَ مَا بَعْدَهَا، وَأَعُوذُ بِكَ مِنْ شَرِّ مَا فِي هَذِهِ اللَّيْلَةِ وَشَرِّ مَا بَعْدَهَا. رَبِّ أَعُوذُ بِكَ مِنَ الْكَسَلِ وَسُوءِ الْكِبَرِ. رَبِّ أَعُوذُ بِكَ مِنْ عَذَابٍ فِي النَّارِ وَعَذَابٍ فِي الْقَبْرِ",
+        meaning: "We have entered the evening and the dominion belongs to Allah, and all praise is for Allah. There is no god except Allah alone with no partner. To Him belongs the dominion and to Him is all praise, and He is over all things capable. My Lord, I ask You for the good of this night and the good that follows it, and I seek refuge in You from the evil of this night and the evil that follows it. My Lord, I seek refuge in You from laziness and the hardship of old age. My Lord, I seek refuge in You from the punishment of the Fire and the punishment of the grave",
+        source: "رواه مسلم",
+        repeat: 1,
+        virtue: "ذكر من أذكار المساء للحفظ والحماية"
+      },
+      {
+       arabic: "حَسْبِيَ اللّهُ لا إلهَ إلاّ هُوَ عَلَيْهِ تَوَكَّلْتُ وَهُوَ رَبُّ العَرْشِ العَظِيمِ",
+       meaning: "Allah is sufficient for me; there is no god except Him. I have placed my trust in Him, and He is the Lord of the Mighty Throne",
+       source: "رواه أبو داود",
+       repeat: 7,
+       virtue: "دعاء عظيم للتوكل على الله وكفاية الهم"
+     },
+     {
+      arabic: "اللّهُـمَّ عافِـني في بَدَنـي، اللّهُـمَّ عافِـني في سَمْـعي، اللّهُـمَّ عافِـني في بَصَـري، لا إلهَ إلاّ أَنْـتَ",
+      meaning: "O Allah, grant me well-being in my body, O Allah, grant me well-being in my hearing, O Allah, grant me well-being in my sight. There is no god except You",
+      source: "رواه أبو داود",
+      repeat: 3,
+      virtue: "دعاء طلب العافية وحفظ الحواس"
+      },
+      {
+       arabic: "اللّهُـمَّ إِنِّي أَمْسَيْتُ أُشْهِدُكَ، وَأُشْهِدُ حَمَلَةَ عَرْشِكَ، وَمَلَائِكَتَكَ، وَجَمِيعَ خَلْقِكَ، أَنَّكَ أَنْتَ اللهُ لا إلهَ إلاّ أَنْتَ وَحْدَكَ لا شَرِيكَ لَكَ، وَأَنَّ نَبِيَّ مُحَمَّدٍ عَبْدُكَ وَرَسُولُكَ",
+       meaning: "O Allah, I have entered the evening and I call You to witness, and I call Your bearers of the Throne, Your angels, and all of Your creation to witness that You are Allah; there is no god except You alone with no partner, and that Prophet Muhammad is Your servant and Your Messenger",
+       source: "رواه أبو داود والترمذي",
+       repeat: 4,
+       virtue: "من أذكار المساء وشهادة عظيمة بالتوحيد"
+       },
+      {
         arabic: "اللَّهُمَّ أَنْتَ رَبِّي لَا إِلَهَ إِلَّا أَنْتَ، خَلَقْتَنِي وَأَنَا عَبْدُكَ، وَأَنَا عَلَى عَهْدِكَ وَوَعْدِكَ مَا اسْتَطَعْتُ، أَعُوذُ بِكَ مِنْ شَرِّ مَا صَنَعْتُ، أَبُوءُ لَكَ بِنِعْمَتِكَ عَلَيَّ، وَأَبُوءُ لَكَ بِذَنْبِي فَاغْفِرْ لِي فَإِنَّهُ لَا يَغْفِرُ الذُّنُوبَ إِلَّا أَنْتَ",
         meaning: "Sayyid al-Istighfar — evening version",
         source: "رواه البخاري",
@@ -102,14 +173,14 @@ const adhkarData = {
       },
       {
         arabic: "بِسْمِ اللَّهِ الَّذِي لَا يَضُرُّ مَعَ اسْمِهِ شَيْءٌ فِي الْأَرْضِ وَلَا فِي السَّمَاءِ وَهُوَ السَّمِيعُ الْعَلِيمُ",
-        meaning: "In the name of Allah with Whose name nothing can harm",
+        meaning: "In the name of Allah with whose name nothing can harm",
         source: "رواه أبو داود والترمذي",
         repeat: 3,
         virtue: "حفظ من كل شيء"
       },
       {
         arabic: "أَعُوذُ بِكَلِمَاتِ اللَّهِ التَّامَّاتِ مِنْ شَرِّ مَا خَلَقَ",
-        meaning: "I seek refuge in the perfect words of Allah from the evil of what He created",
+        meaning: "I seek refuge in the words of Allah and from the evil",
         source: "رواه مسلم",
         repeat: 3,
         virtue: "لا يضره شيء تلك الليلة"
@@ -163,11 +234,46 @@ const adhkarData = {
         virtue: "طلب المغفرة"
       },
       {
+        arabic: `قُلْ هُوَ اللَّهُ أَحَدٌ اللَّهُ الصَّمَدُ لَمْ يَلِدْ وَلَمْ يُولَدْ وَلَمْ يَكُن لَّهُ كُفُوًا أَحَدٌ`,
+        meaning: "Surah Al-Ikhlas — blow into hands and wipe over body",
+        source: "رواه البخاري",
+        repeat: 3,
+        virtue: "كفاية من كل شيء"
+      },
+      {
+        arabic: `قُلْ أَعُوذُ بِرَبِّ الْفَلَقِ مِن شَرِّ مَا خَلَقَ وَمِن شَرِّ غَاسِقٍ إِذَا وَقَبَ وَمِن شَرِّ النَّفَّاثَاتِ فِي الْعُقَدِ وَمِن شَرِّ حَاسِدٍ إِذَا حَسَدَ`,
+        meaning: "Surah Al-Falaq — blow into hands and wipe over body",
+        source: "رواه البخاري",
+        repeat: 3,
+        virtue: "كفاية من كل شيء"
+      },
+      {
+        arabic: `قُلْ أَعُوذُ بِرَبِّ النَّاسِ مَلِكِ النَّاسِ إِلَٰهِ النَّاسِ مِن شَرِّ الْوَسْوَاسِ الْخَنَّاسِ الَّذِي يُوَسْوِسُ فِي صُدُورِ النَّاسِ مِنَ الْجِنَّةِ وَالنَّاسِ`,
+        meaning: "Surah An-Nas — blow into hands and wipe over body",
+        source: "رواه البخاري",
+        repeat: 3,
+        virtue: "كفاية من كل شيء"
+      },
+      {
         arabic: "اللَّهُمَّ أَنْتَ السَّلَامُ وَمِنْكَ السَّلَامُ، تَبَارَكْتَ يَا ذَا الْجَلَالِ وَالْإِكْرَامِ",
-        meaning: "O Allah, You are Peace and from You comes peace",
+        meaning: "O Allah, you are Peace and from you comes peace",
         source: "رواه مسلم",
         repeat: 1,
         virtue: "تعظيم الله"
+      },
+      {
+        arabic: "اللَّهُمَّ أَجِرْنِي مِنْ النَّارِ",
+        meaning: "O Allah, protect me from the Fire",
+        source: "رواه أبو داود",
+        repeat: 7,
+        virtue: "يقال بعد صلاة الصبح والمغرب وهو طلب الحماية من النار"
+      },
+      {
+        arabic: "اللَّهُ لا إِلَهَ إِلَّا هُوَ الْحَيُّ الْقَيُّومُ ۚ لا تَأْخُذُهُ سِنَةٌ وَلا نَوْمٌ ۚ لَهُ ما فِي السَّمَاوَاتِ وَما فِي الْأَرْضِ ۗ مَن ذَا الَّذِي يَشْفَعُ عِندَهُ إِلَّا بِإِذْنِهِ ۚ يَعْلَمُ ما بَيْنَ أَيْدِيهِمْ وَما خَلْفَهُمْ ۖ وَلَا يُحِيطُونَ بِشَيْءٍ مِنْ عِلْمِهِ إِلَّا بِمَا شَاءَ ۚ وَسِعَ كُرْسِيُّهُ السَّمَاوَاتِ وَالْأَرْضَ ۖ وَلَا يَؤُودُهُ حِفْظُهُمَا ۚ وَهُوَ الْعَلِيُّ الْعَظِيمُ",
+        meaning: "Ayat al-Kursi — protection from Jinn until evening",
+        source: "صحيح الترغيب",
+        repeat: 1,
+        virtue: "حماية من الجن طوال اليوم"
       },
       {
         arabic: "لَا إِلَهَ إِلَّا اللَّهُ وَحْدَهُ لَا شَرِيكَ لَهُ، لَهُ الْمُلْكُ وَلَهُ الْحَمْدُ وَهُوَ عَلَى كُلِّ شَيْءٍ قَدِيرٌ",
@@ -177,32 +283,53 @@ const adhkarData = {
         virtue: "فضل عظيم"
       },
       {
+       arabic: "لا إلهَ إلاّ اللّهُ وحْدَهُ لا شَرِيكَ لَهُ، لَهُ المُلكُ وَلَهُ الحَمْدُ، يُحْيِي وَيُمِيتُ وَهُوَ عَلَى كُلِّ شَيْءٍ قَدِيرٌ",
+       meaning: "There is no god except Allah alone with no partner. To Him belongs the dominion and to Him is all praise. He gives life and causes death, and He is capable of all things",
+       source: "رواه الترمذي",
+       repeat: 10,
+       virtue: "ذكر عظيم للتوحيد وتعظيم الله"
+      },
+      {
         arabic: "سُبْحَانَ اللَّهِ",
         meaning: "Glory be to Allah",
         source: "رواه مسلم",
         repeat: 33,
-        virtue: "تمام مئة"
+        virtue: "مغفرة الذنوب وزيادة الحسنات"
+      },
+      {
+        arabic: "اللَّهُمَّ أَعِنِّي عَلَى ذِكْرِكَ وَشُكْرِكَ وَحُسْنِ عِبَادَتِكَ",
+        meaning: "O Allah, help me to remember You, to thank You, and to worship You in the best way",
+        source: "رواه أبو داود والنسائي",
+        repeat: 1,
+        virtue: "دعاء شامل للتوفيق في الذكر والشكر والعبادة"
       },
       {
         arabic: "الْحَمْدُ لِلَّهِ",
         meaning: "All praise is due to Allah",
         source: "رواه مسلم",
         repeat: 33,
-        virtue: "تمام مئة"
+        virtue: "مغفرة الذنوب وزيادة الحسنات"
       },
       {
         arabic: "اللَّهُ أَكْبَرُ",
         meaning: "Allah is the Greatest",
         source: "رواه مسلم",
         repeat: 33,
-        virtue: "تمام مئة"
+        virtue: "مغفرة الذنوب وزيادة الحسنات"
+      },
+      {
+       arabic: "أَسْتَغْفِرُ اللهَ، أَسْتَغْفِرُ اللهَ، أَسْتَغْفِرُ اللهَ. اللّهُمَّ أَنْتَ السَّلامُ، وَمِنْكَ السَّلامُ، تَبَارَكْتَ يَا ذَا الْجَلَالِ وَالإِكْرَامِ",
+       meaning: "I seek forgiveness from Allah, I seek forgiveness from Allah, I seek forgiveness from Allah. O Allah, You are Peace and from You comes peace. Blessed are You, O Possessor of Majesty and Honour",
+       source: "رواه مسلم",
+       repeat: 1,
+       virtue: "ذكر بعد الصلاة للمغفرة والطمأنينة"
       },
       {
         arabic: "لَا إِلَهَ إِلَّا اللَّهُ وَحْدَهُ لَا شَرِيكَ لَهُ، لَهُ الْمُلْكُ وَلَهُ الْحَمْدُ وَهُوَ عَلَى كُلِّ شَيْءٍ قَدِيرٌ",
         meaning: "Completion of the 100 — sins forgiven even if like sea foam",
         source: "رواه مسلم",
         repeat: 1,
-        virtue: "غُفرت ذنوبه وإن كانت مثل زبد البحر"
+        virtue: "تغفر الذنوب و ان كانت مثل زبد البحر"
       }
     ]
   },
@@ -212,14 +339,14 @@ const adhkarData = {
     dhikr: [
       {
         arabic: "بِاسْمِكَ اللَّهُمَّ أَمُوتُ وَأَحْيَا",
-        meaning: "In Your name O Allah I die and I live",
+        meaning: "In your name O Allah I die and I live",
         source: "رواه البخاري",
         repeat: 10,
         virtue: "ذكر الله عند النوم"
       },
       {
         arabic: "اللَّهُمَّ قِنِي عَذَابَكَ يَوْمَ تَبْعَثُ عِبَادَكَ",
-        meaning: "O Allah, protect me from Your punishment on the Day You resurrect Your servants",
+        meaning: "O Allah, protect me from your punishment on the day you resurrect your servants",
         source: "رواه أبو داود والترمذي",
         repeat: 7,
         virtue: "وقاية من عذاب القبر"
@@ -242,7 +369,7 @@ const adhkarData = {
         arabic: "اللَّهُ أَكْبَرُ",
         meaning: "Allah is the Greatest",
         source: "رواه البخاري ومسلم",
-        repeat: 34,
+        repeat: 33,
         virtue: "خيرٌ من الخادم"
       },
       {
@@ -253,11 +380,46 @@ const adhkarData = {
         virtue: "كفاية من كل شيء"
       },
       {
+    arabic: `قُلْ هُوَ اللَّهُ أَحَدٌ اللَّهُ الصَّمَدُ لَمْ يَلِدْ وَلَمْ يُولَدْ وَلَمْ يَكُن لَّهُ كُفُوًا أَحَدٌ`,
+    meaning: "Surah Al-Ikhlas — blow into hands and wipe over body",
+    source: "رواه البخاري",
+    repeat: 3,
+    virtue: "كفاية من كل شيء"
+  },
+  {
+    arabic: `قُلْ أَعُوذُ بِرَبِّ الْفَلَقِ مِن شَرِّ مَا خَلَقَ وَمِن شَرِّ غَاسِقٍ إِذَا وَقَبَ وَمِن شَرِّ النَّفَّاثَاتِ فِي الْعُقَدِ وَمِن شَرِّ حَاسِدٍ إِذَا حَسَدَ`,
+    meaning: "Surah Al-Falaq — blow into hands and wipe over body",
+    source: "رواه البخاري",
+    repeat: 3,
+    virtue: "كفاية من كل شيء"
+  },
+  {
+    arabic: `قُلْ أَعُوذُ بِرَبِّ النَّاسِ مَلِكِ النَّاسِ إِلَٰهِ النَّاسِ مِن شَرِّ الْوَسْوَاسِ الْخَنَّاسِ الَّذِي يُوَسْوِسُ فِي صُدُورِ النَّاسِ مِنَ الْجِنَّةِ وَالنَّاسِ`,
+    meaning: "Surah An-Nas — blow into hands and wipe over body",
+    source: "رواه البخاري",
+    repeat: 3,
+    virtue: "كفاية من كل شيء"
+  },
+      {
         arabic: "اللَّهُمَّ بِاسْمِكَ أَحْيَا وَأَمُوتُ",
         meaning: "O Allah, in Your name I live and die",
         source: "رواه أبو داود",
         repeat: 1,
         virtue: "سلامة النفس"
+      },
+      {
+      arabic: "اللّهُـمَّ أَسْلَمْتُ نَفْسِي إِلَيْكَ، وَفَوَّضْتُ أَمْرِي إِلَيْكَ، وَوَجَّهْتُ وَجْهِي إِلَيْكَ، وَأَلْجَأْتُ ظَهْرِي إِلَيْكَ، رَغْبَةً وَرَهْبَةً إِلَيْكَ، لَا مَلْجَأَ وَلَا مَنْجَا مِنْكَ إِلَّا إِلَيْكَ، آمَنْتُ بِكِتَابِكَ الَّذِي أَنْزَلْتَ وَبِنَبِيِّكَ الَّذِي أَرْسَلْتَ",
+      meaning: "O Allah, I submit myself to You, entrust my affair to You, turn my face to You, and rely upon You. In hope and fear of You. There is no refuge or escape from You except to You. I believe in Your Book which You revealed and in Your Prophet whom You sent",
+      source: "رواه البخاري ومسلم",
+      repeat: 1,
+      virtue: "دعاء عظيم للتوكل الكامل على الله"
+      },
+      {
+      arabic: "أَعُوذُ بِاللهِ مِنَ الشَّيْطَانِ الرَّجِيمِ. آمَنَ الرَّسُولُ بِمَا أُنْزِلَ إِلَيْهِ مِنْ رَبِّهِ وَالْمُؤْمِنُونَ ۚ كُلٌّ آمَنَ بِاللَّهِ وَمَلَائِكَتِهِ وَكُتُبِهِ وَرُسُلِهِ لَا نُفَرِّقُ بَيْنَ أَحَدٍ مِنْ رُسُلِهِ ۚ وَقَالُوا سَمِعْنَا وَأَطَعْنَا ۖ غُفْرَانَكَ رَبَّنَا وَإِلَيْكَ الْمَصِيرُ. لَا يُكَلِّفُ اللَّهُ نَفْسًا إِلَّا وُسْعَهَا ۚ لَهَا مَا كَسَبَتْ وَعَلَيْهَا مَا اكْتَسَبَتْ ۗ رَبَّنَا لَا تُؤَاخِذْنَا إِنْ نَسِينَا أَوْ أَخْطَأْنَا ۚ رَبَّنَا وَلَا تَحْمِلْ عَلَيْنَا إِصْرًا كَمَا حَمَلْتَهُ عَلَى الَّذِينَ مِنْ قَبْلِنَا ۚ رَبَّنَا وَلَا تُحَمِّلْنَا مَا لَا طَاقَةَ لَنَا بِهِ ۖ وَاعْفُ عَنَّا وَاغْفِرْ لَنَا وَارْحَمْنَا ۚ أَنْتَ مَوْلَانَا فَانْصُرْنَا عَلَى الْقَوْمِ الْكَافِرِينَ",
+      meaning: "I seek refuge in Allah from Satan, the accursed. The Messenger believes in what has been revealed to him from his Lord, and so do the believers. Each one believes in Allah, His angels, His books, and His messengers, saying: 'We make no distinction between any of His messengers, and we hear and obey. We seek Your forgiveness, our Lord, and to You is the final return.' Allah does not burden a soul beyond what it can bear. It will have what it has earned, and it will bear what it has earned. Our Lord, do not punish us if we forget or make a mistake. Our Lord, do not place upon us a burden like that which You placed upon those before us. Our Lord, do not burden us with what we cannot bear. Pardon us, forgive us, and have mercy on us. You are our Protector, so give us victory over the disbelieving people",
+      source: "رواه مسلم (فضل آخر آيتين من سورة البقرة)",
+      repeat: 1,
+      virtue: "آيتان عظيمتان للحفظ والكفاية من كل شر"
       },
       {
         arabic: "اللَّهُمَّ رَبَّ السَّمَاوَاتِ وَرَبَّ الْأَرْضِ وَرَبَّ الْكُرْسِيِّ الْعَظِيمِ",
@@ -288,7 +450,7 @@ const adhkarData = {
     dhikr: [
       {
         arabic: "لا إله إلا الله وحده لا شريك له له الملك وله الحمد وهو على كل شيء قدير",
-        meaning: "There is no god but Allah alone, no partner, His is the dominion and praise",
+        meaning: "There is no god but Allah alone, no partner, his is the dominion and praise",
         source: "رواه البخاري",
         repeat: 10,
         virtue: "شكر نعمة الحياة"
@@ -344,14 +506,28 @@ const adhkarData = {
       },
       {
         arabic: "اللهم إني أعوذ بك من الكفر والفقر",
-        meaning: "O Allah, I seek refuge in You from disbelief and poverty",
+        meaning: "O Allah, I seek refuge in you from disbelief and poverty",
         source: "رواه مسلم",
         repeat: 10,
         virtue: "حماية الدين والدنيا"
       },
       {
+       arabic: "اللَّهُمَّ إِنَّكَ عَفُوٌّ كَرِيمٌ تُحِبُّ العَفْوَ فَاعْفُ عَنِّي",
+       meaning: "O Allah, You are Pardoning and Generous; You love forgiveness, so forgive me",
+       source: "رواه الترمذي وابن ماجه",
+       repeat: 10,
+       virtue: "دعاء عظيم للمغفرة وخاصة في أوقات الإجابة"
+      },
+      {
+      arabic: "اللَّهُمَّ رَبِّ اغْفِرْ لِي وَلِوَالِدَيَّ وَلِمَنْ دَخَلَ بَيْتِيَ مُؤْمِنًا وَلِلْمُؤْمِنِينَ وَالْمُؤْمِنَاتِ",
+      meaning: "O Allah, my Lord, forgive me, my parents, whoever enters my home as a believer, and all believing men and believing women",
+      source: "رواه نوح عليه السلام في القرآن (سورة نوح 28)",
+      repeat: 1,
+      virtue: "دعاء شامل للاستغفار للمسلمين والأهل"
+      },
+      {
         arabic: "رضيت بالله رباً وبالإسلام ديناً وبمحمد صلى الله عليه وسلم نبياً",
-        meaning: "I am pleased with Allah as Lord, Islam as religion, Muhammad ﷺ as Prophet",
+        meaning: "I am pleased with Allah as Lord, Islam as religion, and Muhammad ﷺ as Prophet",
         source: "رواه مسلم",
         repeat: 10,
         virtue: "راحة القلب والطمأنينة"
