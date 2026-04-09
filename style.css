@@ -134,7 +134,7 @@ body {
 .home-footer {
   text-align: center;
   padding: 16px;
-  color: var(--text-dimmer);
+  color: #eef0eb;
   font-size: 0.85rem;
   font-family: 'Amiri', serif;
 }
