@@ -72,7 +72,13 @@ const adhkarData = {
         source: "رواه الطبراني",
         repeat: 10,
         virtue: "١٠ صلوات من الله"
-      }
+        {
+      arabic: "استغفر الله و اتوب اليه",
+        meaning: "I seek forgiveness from Allah and repent to Him.",
+        source: "رواه الطبراني",
+        repeat: 100,
+        virtue: "١٠ صلوات من الله"
+        },
     ]
   },
 
