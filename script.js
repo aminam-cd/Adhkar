@@ -5,7 +5,7 @@ const adhkarData = {
     dhikr: [
       {
         arabic: "اللَّهُ لا إِلَهَ إِلَّا هُوَ الْحَيُّ الْقَيُّومُ ۚ لا تَأْخُذُهُ سِنَةٌ وَلا نَوْمٌ ۚ لَهُ ما فِي السَّمَاوَاتِ وَما فِي الْأَرْضِ ۗ مَن ذَا الَّذِي يَشْفَعُ عِندَهُ إِلَّا بِإِذْنِهِ ۚ يَعْلَمُ ما بَيْنَ أَيْدِيهِمْ وَما خَلْفَهُمْ ۖ وَلَا يُحِيطُونَ بِشَيْءٍ مِنْ عِلْمِهِ إِلَّا بِمَا شَاءَ ۚ وَسِعَ كُرْسِيُّهُ السَّمَاوَاتِ وَالْأَرْضَ ۖ وَلَا يَؤُودُهُ حِفْظُهُمَا ۚ وَهُوَ الْعَلِيُّ الْعَظِيمُ",
-        meaning: "Ayat al-Kursi — protection from Jinn until evening",
+        meaning: "Allahu laaa ilaaha illaa huwal haiyul qai-yoom laa taakhuzuhoo sinatunw wa laa nawm; lahoo maa fissamaawaati wa maa fil ard man zallazee yashfa’u indahooo illaa be iznihya’lamu maa baina aideehim wa maa khalfahumwa laa yuheetoona beshai ‘immin ‘ilmihee illa be maa shaaaawasi’a kursiyyuhus samaa waati wal arda wa la ya’ooduho hifzuhumaawa huwal aliyyul ‘azeem",
         source: "صحيح الترغيب",
         repeat: 1,
         virtue: "حماية من الجن طوال اليوم"
@@ -116,7 +116,7 @@ const adhkarData = {
     dhikr: [
       {
         arabic: "اللَّهُ لا إِلَهَ إِلَّا هُوَ الْحَيُّ الْقَيُّومُ ۚ لا تَأْخُذُهُ سِنَةٌ وَلا نَوْمٌ ۚ لَهُ ما فِي السَّمَاوَاتِ وَما فِي الْأَرْضِ ۗ مَن ذَا الَّذِي يَشْفَعُ عِندَهُ إِلَّا بِإِذْنِهِ ۚ يَعْلَمُ ما بَيْنَ أَيْدِيهِمْ وَما خَلْفَهُمْ ۖ وَلَا يُحِيطُونَ بِشَيْءٍ مِنْ عِلْمِهِ إِلَّا بِمَا شَاءَ ۚ وَسِعَ كُرْسِيُّهُ السَّمَاوَاتِ وَالْأَرْضَ ۖ وَلَا يَؤُودُهُ حِفْظُهُمَا ۚ وَهُوَ الْعَلِيُّ الْعَظِيمُ",
-        meaning: "Ayat al-Kursi — protection from Jinn until morning",
+        meaning: "Allahu laaa ilaaha illaa huwal haiyul qai-yoom laa taakhuzuhoo sinatunw wa laa nawm; lahoo maa fissamaawaati wa maa fil ard man zallazee yashfa’u indahooo illaa be iznihya’lamu maa baina aideehim wa maa khalfahumwa laa yuheetoona beshai ‘immin ‘ilmihee illa be maa shaaaawasi’a kursiyyuhus samaa waati wal arda wa la ya’ooduho hifzuhumaawa huwal aliyyul ‘azeem",
         source: "القرآن الكريم - البقرة: 255",
         repeat: 1,
         virtue: "حماية طوال الليل"
@@ -269,7 +269,7 @@ const adhkarData = {
       },
       {
         arabic: "اللَّهُ لا إِلَهَ إِلَّا هُوَ الْحَيُّ الْقَيُّومُ ۚ لا تَأْخُذُهُ سِنَةٌ وَلا نَوْمٌ ۚ لَهُ ما فِي السَّمَاوَاتِ وَما فِي الْأَرْضِ ۗ مَن ذَا الَّذِي يَشْفَعُ عِندَهُ إِلَّا بِإِذْنِهِ ۚ يَعْلَمُ ما بَيْنَ أَيْدِيهِمْ وَما خَلْفَهُمْ ۖ وَلَا يُحِيطُونَ بِشَيْءٍ مِنْ عِلْمِهِ إِلَّا بِمَا شَاءَ ۚ وَسِعَ كُرْسِيُّهُ السَّمَاوَاتِ وَالْأَرْضَ ۖ وَلَا يَؤُودُهُ حِفْظُهُمَا ۚ وَهُوَ الْعَلِيُّ الْعَظِيمُ",
-        meaning: "Ayat al-Kursi — protection from Jinn until evening",
+        meaning: "Allahu laaa ilaaha illaa huwal haiyul qai-yoom laa taakhuzuhoo sinatunw wa laa nawm; lahoo maa fissamaawaati wa maa fil ard man zallazee yashfa’u indahooo illaa be iznihya’lamu maa baina aideehim wa maa khalfahumwa laa yuheetoona beshai ‘immin ‘ilmihee illa be maa shaaaawasi’a kursiyyuhus samaa waati wal arda wa la ya’ooduho hifzuhumaawa huwal aliyyul ‘azeem",
         source: "صحيح الترغيب",
         repeat: 1,
         virtue: "حماية من الجن طوال اليوم"
@@ -372,32 +372,25 @@ const adhkarData = {
         virtue: "خيرٌ من الخادم"
       },
       {
-        arabic: "﴿قُلْ هُوَ اللَّهُ أَحَدٌ﴾ ﴿قُلْ أَعُوذُ بِرَبِّ الْفَلَقِ﴾ ﴿قُلْ أَعُوذُ بِرَبِّ النَّاسِ﴾",
-        meaning: "Al-Ikhlas, Al-Falaq, An-Nas — blow into hands and wipe over body",
-        source: "رواه البخاري",
-        repeat: 3,
-        virtue: "كفاية من كل شيء"
-      },
-      {
         arabic: `قُلْ هُوَ اللَّهُ أَحَدٌ اللَّهُ الصَّمَدُ لَمْ يَلِدْ وَلَمْ يُولَدْ وَلَمْ يَكُن لَّهُ كُفُوًا أَحَدٌ`,
-        meaning: "Surah Al-Ikhlas — blow into hands and wipe over body",
+        meaning: "Qul huwa allahu ahadu allahu assamadu lam yalid wa lam yulad wa lam yakun lahoo kufuwan ahadun",
         source: "رواه البخاري",
         repeat: 3,
-        virtue: "كفاية من كل شيء"
+        virtue: "فضل عظيم من القرآن"
       },
       {
         arabic: `قُلْ أَعُوذُ بِرَبِّ الْفَلَقِ مِن شَرِّ مَا خَلَقَ وَمِن شَرِّ غَاسِقٍ إِذَا وَقَبَ وَمِن شَرِّ النَّفَّاثَاتِ فِي الْعُقَدِ وَمِن شَرِّ حَاسِدٍ إِذَا حَسَدَ`,
-        meaning: "Surah Al-Falaq — blow into hands and wipe over body",
+        meaning: "Qul a'oozu bi rabbil-falaq Min sharri maa khalaq Wa min sharri ghaasiqin izaa waqab Wa min sharrin-naffaa-saati fil 'uqad Wa min sharri haasidin izaa hasad",
         source: "رواه البخاري",
         repeat: 3,
-        virtue: "كفاية من كل شيء"
+        virtue: "فضل عظيم من القرآن"
       },
       {
         arabic: `قُلْ أَعُوذُ بِرَبِّ النَّاسِ مَلِكِ النَّاسِ إِلَٰهِ النَّاسِ مِن شَرِّ الْوَسْوَاسِ الْخَنَّاسِ الَّذِي يُوَسْوِسُ فِي صُدُورِ النَّاسِ مِنَ الْجِنَّةِ وَالنَّاسِ`,
-        meaning: "Surah An-Nas — blow into hands and wipe over body",
+        meaning: "Qul a'oozu bi rabbil-nas Mlikil-nas Ilahi al-nas Min sharri al-waswasi al-khannas al-ladhi yuwassu fi صدور al-nas mina al-jinnati wa al-nas",
         source: "رواه البخاري",
         repeat: 3,
-        virtue: "كفاية من كل شيء"
+        virtue: "فضل عظيم من القرآن"
       },
       {
         arabic: "اللَّهُمَّ بِاسْمِكَ أَحْيَا وَأَمُوتُ",
@@ -441,8 +434,10 @@ const adhkarData = {
         repeat: 1,
         virtue: "راحة الجسم والروح"
       }
+      
     ]
   },
+  
 
   wakeup: {
     title: "ذكر وأجر",
@@ -538,19 +533,108 @@ const adhkarData = {
 const asmaAllah = {
   title: "أسماء الله الحسنى",
   dhikr: [
-    "الله","الرحمن","الرحيم","الملك","القدوس","السلام","المؤمن","المهيمن","العزيز","الجبار",
-    "المتكبر","الخالق","البارئ","المصور","الغفار","القهار","الوهاب","الرزاق","الفتاح","العليم",
-    "القابض","الباسط","الخافض","الرافع","المعز","المذل","السميع","البصير","الحكم","العدل",
-    "اللطيف","الخبير","الحليم","العظيم","الغفور","الشكور","العلي","الكبير","الحفيظ","المقيت",
-    "الحسيب","الجليل","الكريم","الرقيب","المجيب","الواسع","الحكيم","الودود","المجيد","الباعث",
-    "الشهيد","الحق","الوكيل","القوي","المتين","الولي","الحميد","المحصي","المبدئ","المعيد",
-    "المحيي","المميت","الحي","القيوم","الواجد","الماجد","الواحد","الأحد","الصمد","القادر",
-    "المقتدر","المقدم","المؤخر","الأول","الآخر","الظاهر","الباطن","الوالي","المتعالي","البر",
-    "التواب","المنتقم","العفو","الرؤوف","مالك الملك","ذو الجلال والإكرام","المقسط","الجامع",
-    "الغني","المغني","المانع","الضار","النافع","النور","الهادي","البديع","الباقي","الوارث","الرشيد","الصبور"
+    { ar: "الله",               en: "Allah" },
+    { ar: "الرحمن",             en: "Ar-Rahmaan" },
+    { ar: "الرحيم",             en: "Ar-Raheem" },
+    { ar: "الملك",              en: "Al-Malik" },
+    { ar: "القدوس",             en: "Al-Quddoos" },
+    { ar: "السلام",             en: "As-Salaam" },
+    { ar: "المؤمن",             en: "Al-Mu'min" },
+    { ar: "المهيمن",            en: "Al-Muhaymin" },
+    { ar: "العزيز",             en: "Al-'Azeez" },
+    { ar: "الجبار",             en: "Al-Jabbaar" },
+    { ar: "المتكبر",            en: "Al-Mutakabbir" },
+    { ar: "الخالق",             en: "Al-Khaaliq" },
+    { ar: "البارئ",             en: "Al-Baari'" },
+    { ar: "المصور",             en: "Al-Musawwir" },
+    { ar: "الغفار",             en: "Al-Ghaffaar" },
+    { ar: "القهار",             en: "Al-Qahhaar" },
+    { ar: "الوهاب",             en: "Al-Wahhaab" },
+    { ar: "الرزاق",             en: "Ar-Razzaaq" },
+    { ar: "الفتاح",             en: "Al-Fattaah" },
+    { ar: "العليم",             en: "Al-'Aleem" },
+    { ar: "القابض",             en: "Al-Qaabid" },
+    { ar: "الباسط",             en: "Al-Baasit" },
+    { ar: "الخافض",             en: "Al-Khaafid" },
+    { ar: "الرافع",             en: "Ar-Raafi'" },
+    { ar: "المعز",              en: "Al-Mu'izz" },
+    { ar: "المذل",              en: "Al-Mudhill" },
+    { ar: "السميع",             en: "As-Samee'" },
+    { ar: "البصير",             en: "Al-Baseer" },
+    { ar: "الحكم",              en: "Al-Hakam" },
+    { ar: "العدل",              en: "Al-'Adl" },
+    { ar: "اللطيف",             en: "Al-Lateef" },
+    { ar: "الخبير",             en: "Al-Khabeer" },
+    { ar: "الحليم",             en: "Al-Haleem" },
+    { ar: "العظيم",             en: "Al-'Azeem" },
+    { ar: "الغفور",             en: "Al-Ghafoor" },
+    { ar: "الشكور",             en: "Ash-Shakoor" },
+    { ar: "العلي",              en: "Al-'Ali" },
+    { ar: "الكبير",             en: "Al-Kabeer" },
+    { ar: "الحفيظ",             en: "Al-Hafeez" },
+    { ar: "المقيت",             en: "Al-Muqeet" },
+    { ar: "الحسيب",             en: "Al-Haseeb" },
+    { ar: "الجليل",             en: "Al-Jaleel" },
+    { ar: "الكريم",             en: "Al-Kareem" },
+    { ar: "الرقيب",             en: "Ar-Raqeeb" },
+    { ar: "المجيب",             en: "Al-Mujeeb" },
+    { ar: "الواسع",             en: "Al-Waasi'" },
+    { ar: "الحكيم",             en: "Al-Hakeem" },
+    { ar: "الودود",             en: "Al-Wadood" },
+    { ar: "المجيد",             en: "Al-Majeed" },
+    { ar: "الباعث",             en: "Al-Baa'ith" },
+    { ar: "الشهيد",             en: "Ash-Shaheed" },
+    { ar: "الحق",               en: "Al-Haqq" },
+    { ar: "الوكيل",             en: "Al-Wakeel" },
+    { ar: "القوي",              en: "Al-Qawiyy" },
+    { ar: "المتين",             en: "Al-Mateen" },
+    { ar: "الولي",              en: "Al-Waliyy" },
+    { ar: "الحميد",             en: "Al-Hameed" },
+    { ar: "المحصي",             en: "Al-Muhsee" },
+    { ar: "المبدئ",             en: "Al-Mubdi'" },
+    { ar: "المعيد",             en: "Al-Mu'eed" },
+    { ar: "المحيي",             en: "Al-Muhyee" },
+    { ar: "المميت",             en: "Al-Mumeet" },
+    { ar: "الحي",               en: "Al-Hayy" },
+    { ar: "القيوم",             en: "Al-Qayyoom" },
+    { ar: "الواجد",             en: "Al-Waajid" },
+    { ar: "الماجد",             en: "Al-Maajid" },
+    { ar: "الواحد",             en: "Al-Waahid" },
+    { ar: "الأحد",              en: "Al-Ahad" },
+    { ar: "الصمد",              en: "As-Samad" },
+    { ar: "القادر",             en: "Al-Qaadir" },
+    { ar: "المقتدر",            en: "Al-Muqtadir" },
+    { ar: "المقدم",             en: "Al-Muqaddim" },
+    { ar: "المؤخر",             en: "Al-Mu'akhkhir" },
+    { ar: "الأول",              en: "Al-Awwal" },
+    { ar: "الآخر",              en: "Al-Aakhir" },
+    { ar: "الظاهر",             en: "Az-Zaahir" },
+    { ar: "الباطن",             en: "Al-Baatin" },
+    { ar: "الوالي",             en: "Al-Waalee" },
+    { ar: "المتعالي",           en: "Al-Muta'aali" },
+    { ar: "البر",               en: "Al-Barr" },
+    { ar: "التواب",             en: "At-Tawwaab" },
+    { ar: "المنتقم",            en: "Al-Muntaqim" },
+    { ar: "العفو",              en: "Al-'Afuww" },
+    { ar: "الرؤوف",             en: "Ar-Ra'oof" },
+    { ar: "مالك الملك",         en: "Maalik-ul-Mulk" },
+    { ar: "ذو الجلال والإكرام", en: "Dhul-Jalaali wal-Ikraam" },
+    { ar: "المقسط",             en: "Al-Muqsit" },
+    { ar: "الجامع",             en: "Al-Jaami'" },
+    { ar: "الغني",              en: "Al-Ghaniyy" },
+    { ar: "المغني",             en: "Al-Mughnee" },
+    { ar: "المانع",             en: "Al-Maani'" },
+    { ar: "الضار",              en: "Ad-Daarr" },
+    { ar: "النافع",             en: "An-Naafi'" },
+    { ar: "النور",              en: "An-Noor" },
+    { ar: "الهادي",             en: "Al-Haadi" },
+    { ar: "البديع",             en: "Al-Badee'" },
+    { ar: "الباقي",             en: "Al-Baaqi" },
+    { ar: "الوارث",             en: "Al-Waarith" },
+    { ar: "الرشيد",             en: "Ar-Rasheed" },
+    { ar: "الصبور",             en: "As-Saboor" },
   ]
 };
-
 // ─── STATE ────────────────────────────────────────────────────
 let currentCategory = null;
 let currentDhikr = [];   // ← THE FIX: always holds the active dhikr array
@@ -578,8 +662,8 @@ function openCategory(key) {
 
   if (key === "asma") {
     currentCategory = "asma";
-    currentDhikr = asmaAllah.dhikr.map(function(name) {
-      return { arabic: name, meaning: "", source: "", repeat: 1, virtue: "" };
+    currentDhikr = asmaAllah.dhikr.map(function(item) {
+      return { arabic: item.ar, en: item.en, meaning: "", source: "", repeat: 1, virtue: "" };
     });
     counters = new Array(currentDhikr.length).fill(0);
 
@@ -601,8 +685,7 @@ function openCategory(key) {
   buildDhikrList(currentDhikr);
   updateProgress();
   showScreen('screen-list');
-}
-
+} 
 // ─── BUILD DHIKR CARDS ────────────────────────────────────────
 function buildDhikrList(dhikrArray) {
   const container = document.getElementById('dhikr-list');
@@ -620,7 +703,10 @@ function buildDhikrList(dhikrArray) {
 
     container.innerHTML += `
       <div class="dhikr-card" id="card-${index}">
-        <div class="arabic-text">${dhikr.arabic.replace(/\n/g, '<br>')}</div>
+        <div class="arabic-text">
+          ${dhikr.arabic.replace(/\n/g, '<br>')}
+          ${dhikr.en ? `<span class="asma-latin">${dhikr.en}</span>` : ''}
+        </div>
         ${dotsHTML}
         <div class="dhikr-divider"></div>
         <div class="meaning-text">${dhikr.meaning}</div>

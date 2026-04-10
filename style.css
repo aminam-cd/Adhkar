@@ -88,6 +88,7 @@ body {
   gap: 14px;
   padding: 20px 16px;
   flex: 1;
+  padding-bottom: 80px;
 }
 
 .category-card {
@@ -135,8 +136,10 @@ body {
   text-align: center;
   padding: 16px;
   color: #eef0eb;
-  font-size: 0.85rem;
+  font-size: 1.1rem;
   font-family: 'Amiri', serif;
+  position: relative;
+  z-index: 1;
 }
 
 /* NAV BAR */
@@ -221,6 +224,18 @@ body {
   padding: 20px;
   transition: all 0.3s ease;
   animation: slideIn 0.4s ease both;
+}
+/* ASMA AL-HUSNA — transliteration */
+.asma-latin {
+  display: block;
+  font-family: 'Tajawal', sans-serif;
+  font-size: 0.95rem;
+  color: #d4a849;
+  direction: ltr;
+  letter-spacing: 0.05em;
+  margin-top: 6px;
+  font-style: italic;
+  opacity: 0.85;
 }
 
 .dhikr-card:nth-child(1)  { animation-delay: 0.05s; }
