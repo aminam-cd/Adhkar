@@ -742,6 +742,12 @@ function increment() {
   }
 }
 
+function resetChallenge() {
+  count = 0;
+  localStorage.setItem(todayKey, 0);
+  updateUI();
+}
+
 // ▶️ Init
 updateUI();
 
