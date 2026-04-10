@@ -1437,3 +1437,18 @@ function backToSurahList() {
   document.getElementById('quran-ayah-view').style.display = 'none';
   document.getElementById('quran-surah-list').style.display = 'block';
 }
+
+window.addEventListener("load", () => {
+  setTimeout(() => {
+    const welcome = document.getElementById("screen-welcome");
+    const home = document.getElementById("screen-home");
+
+    welcome.classList.add("fade-out");
+
+    setTimeout(() => {
+      welcome.classList.remove("active");
+      welcome.style.display = "none";
+      home.classList.add("active");
+    }, 400);
+  }, 1600);
+});
