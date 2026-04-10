@@ -713,7 +713,7 @@ const challenge = challenges[index];
 const todayKey = "challenge_" + index;
 
 // 🔢 Load saved count
-let count = localStorage.getItem(todayKey) || 0;
+let count = Number(localStorage.getItem(todayKey)) || 0;
 
 // 🎯 Elements
 const textEl = document.getElementById("dhikr");
@@ -731,15 +731,15 @@ progressEl.style.width = percent + "%";
 
 // ➕ Increment
 function increment() {
-if (count < challenge.goal) {
-count++;
-localStorage.setItem(todayKey, count);
-updateUI();
-}
+  if (count < challenge.goal) {
+    count = Number(count) + 1;
+    localStorage.setItem(todayKey, count);
+    updateUI();
+  }
 
-if (count == challenge.goal) {
-alert("ما شاء الله! أنهيت تحدي اليوم 🎉");
-}
+  if (count === challenge.goal) {
+    alert("ما شاء الله! أنهيت تحدي اليوم 🎉");
+  }
 }
 
 // ▶️ Init
