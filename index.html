@@ -52,9 +52,24 @@
       <div class="category-card" onclick="openCategory('asma')">
   <span class="card-icon">🕋</span>
   <div class="card-title">أسماء الله الحسنى</div>
-  <div class="card-count">99 أسماء</div>
+  <div class="card-count">٩٩ اسمًا</div>
 </div>
+<div class="category-card challenge" onclick="increment()">
+    <h2>🎯 تحدي اليوم</h2>
+
+    <p id="dhikr"></p>
+
+    <div class="progress-container">
+      <div id="challenge-progress-bar"></div>
     </div>
+
+    <p id="count"></p>
+
+    <button onclick="increment(event)">اضغط</button>
+  </div>
+    </div>
+  
+    
     <div class="home-footer">
       <p>اللهم اجعلنا من الذاكرين</p>
     </div>
@@ -101,6 +116,8 @@
       <div id="quran-ayahs" class="dhikr-list"></div>
     </div>
   </div>
+
+  
 
   <script src="script.js"></script>
 </body>

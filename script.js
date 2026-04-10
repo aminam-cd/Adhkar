@@ -635,6 +635,120 @@ const asmaAllah = {
     { ar: "الصبور",             en: "As-Saboor" },
   ]
 };
+
+const challenges = [
+{ text: "سبحان الله", goal: 33 },
+{ text: "الحمدلله", goal: 33 },
+{ text: "الله أكبر", goal: 33 },
+{ text: "سبحان الله وبحمده", goal: 33 },
+{ text: "سبحان الله العظيم", goal: 33 },
+{ text: "استغفر الله", goal: 33 },
+{ text: "استغفر الله وأتوب إليه", goal: 33 },
+{ text: "لا إله إلا الله", goal: 33 },
+{ text: "لا حول ولا قوة إلا بالله", goal: 33 },
+{ text: "سبحان الله والحمدلله ولا إله إلا الله والله أكبر", goal: 33 },
+
+{ text: "اللهم صلِّ على محمد", goal: 33 },
+{ text: "حسبي الله لا إله إلا هو عليه توكلت", goal: 33 },
+{ text: "رضيت بالله رباً وبالإسلام ديناً", goal: 3 },
+{ text: "اللهم اغفر لي", goal: 50 },
+{ text: "اللهم ارحمني", goal: 50 },
+{ text: "اللهم اهدني", goal: 50 },
+{ text: "اللهم عافني", goal: 50 },
+{ text: "اللهم ارزقني", goal: 30 },
+{ text: "اللهم اجبر خاطري", goal: 30 },
+
+{ text: "سبحان الله", goal: 33 },
+{ text: "الحمدلله", goal: 33 },
+{ text: "الله أكبر", goal: 34 },
+{ text: "استغفر الله", goal: 50 },
+{ text: "اللهم تب علي", goal: 50 },
+
+{ text: "اللهم قربني إليك", goal: 30 },
+{ text: "اللهم اجعلني من الذاكرين", goal: 50 },
+{ text: "اللهم اجعلني من التوابين", goal: 50 },
+{ text: "اللهم حسن خاتمتي", goal: 20 },
+{ text: "اللهم ارزقني الجنة", goal: 20 },
+
+{ text: "اللهم إني أسألك العفو والعافية", goal: 30 },
+{ text: "اللهم أصلح قلبي", goal: 30 },
+{ text: "اللهم نور قلبي", goal: 30 },
+{ text: "اللهم ثبتني", goal: 30 },
+{ text: "اللهم وفقني", goal: 30 },
+
+{ text: "يا رب", goal: 100 },
+{ text: "يا الله", goal: 100 },
+{ text: "يا رحمن", goal: 50 },
+{ text: "يا رحيم", goal: 50 },
+{ text: "يا كريم", goal: 50 },
+
+{ text: "اللهم فرج همي", goal: 30 },
+{ text: "اللهم اشفني", goal: 30 },
+{ text: "اللهم احفظني", goal: 30 },
+{ text: "اللهم بارك لي", goal: 30 },
+{ text: "اللهم ارزقني السعادة", goal: 30 },
+
+{ text: "اللهم اغفر للمسلمين", goal: 30 },
+{ text: "اللهم ارحم والدي", goal: 30 },
+{ text: "اللهم اجعلني من الصالحين", goal: 30 },
+{ text: "اللهم اجعلني قريب منك", goal: 30 },
+{ text: "اللهم تقبل مني", goal: 30 }
+];
+
+
+// 📅 Get today's index (changes daily)
+function getTodayIndex() {
+const today = new Date();
+const start = new Date(today.getFullYear(), 0, 0);
+const diff = today - start;
+const day = Math.floor(diff / (1000 * 60 * 60 * 24));
+return day % challenges.length;
+}
+
+// 📌 Current challenge
+const index = getTodayIndex();
+const challenge = challenges[index];
+
+// 📊 Storage key (different each day)
+const todayKey = "challenge_" + index;
+
+// 🔢 Load saved count
+let count = localStorage.getItem(todayKey) || 0;
+
+// 🎯 Elements
+const textEl = document.getElementById("dhikr");
+const countEl = document.getElementById("count");
+const progressEl = document.getElementById("challenge-progress-bar");
+
+// 🧠 Update UI
+function updateUI() {
+textEl.innerText = challenge.text;
+countEl.innerText = count + " / " + challenge.goal;
+
+let percent = (count / challenge.goal) * 100;
+progressEl.style.width = percent + "%";
+}
+
+// ➕ Increment
+function increment() {
+if (count < challenge.goal) {
+count++;
+localStorage.setItem(todayKey, count);
+updateUI();
+}
+
+if (count == challenge.goal) {
+alert("ما شاء الله! أنهيت تحدي اليوم 🎉");
+}
+}
+
+// ▶️ Init
+updateUI();
+
+if (count == challenge.goal) {
+document.querySelector(".challenge").classList.add("completed");
+}
+
 // ─── STATE ────────────────────────────────────────────────────
 let currentCategory = null;
 let currentDhikr = [];   // ← THE FIX: always holds the active dhikr array

@@ -449,6 +449,94 @@ body {
   transform: translateY(-2px);
 }
 
+.challenge {
+background: #0f1720;
+border-radius: 20px;
+padding: 20px;
+text-align: center;
+color: #556b2f;
+box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+transition: 0.3s;
+}
+
+.challenge:hover {
+transform: translateY(-3px);
+}
+
+/* Title */
+.challenge h2 {
+margin-bottom: 10px;
+font-size: 1.1rem;
+}
+
+/* Dhikr text */
+#dhikr {
+font-size: 1.1rem;
+margin-bottom: 15px;
+color: #a3b18a;
+font-weight: 500;
+}
+
+/* Progress bar container */
+.progress-container {
+width: 100%;
+height: 10px;
+background: #1c2a33;
+border-radius: 10px;
+overflow: hidden;
+margin: 15px 0;
+}
+
+/* Progress bar */
+#progress-bar {
+height: 100%;
+width: 0%;
+background: linear-gradient(90deg, #a3b18a, #588157);
+border-radius: 10px;
+transition: width 0.4s ease;
+}
+
+/* Counter text */
+#count {
+font-size: 14px;
+margin-bottom: 15px;
+color: #cbd5e1;
+}
+
+/* Button */
+.challenge button {
+background: linear-gradient(135deg, #a3b18a, #588157);
+border: none;
+padding: 10px 20px;
+border-radius: 12px;
+color: #000;
+font-weight: bold;
+cursor: pointer;
+transition: 0.2s;
+}
+
+/* Button hover */
+.challenge button:hover {
+opacity: 0.9;
+transform: scale(1.05);
+}
+
+/* Button click effect */
+.challenge button:active {
+transform: scale(0.95);
+}
+
+body {
+background: #020617;
+font-family: system-ui, -apple-system, sans-serif;
+}
+
+
+.challenge.completed {
+border: 2px solid #a3b18a;
+box-shadow: 0 0 20px #588157;
+}
+
 /* RESPONSIVE */
 @media (max-width: 380px) {
   .app-title { font-size: 2.4rem; }
